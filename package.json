@@ -1,0 +1,22 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "GraphQL POC demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node --presets env -- index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek S",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "dataloader": "^1.4.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.2",
+    "nodemon": "^1.17.4"
+  }
+}
